@@ -2,8 +2,21 @@
     display: grid;
 }
 .candidates img{
+    width: 250px;
+}
+.map img {
     width: 500px;
 }
-.map-image {
-    width: 500px;
+.container {
+    max-width: 1000px;
+    margin: 0;
+}
+table {
+    text-align: center;
+}
+th {
+    border: 2px solid black;
+}
+td {
+    border: 2px solid black;
 }
