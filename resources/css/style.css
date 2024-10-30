@@ -1,0 +1,9 @@
+.candidates {
+    display: grid;
+}
+.candidates img{
+    width: 500px;
+}
+.map-image {
+    width: 500px;
+}
