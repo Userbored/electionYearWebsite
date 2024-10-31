@@ -1,5 +1,9 @@
 .candidates {
     display: grid;
+    grid-row-start: 1;
+    grid-row-end:2;
+    grid-column-start: 1;
+    grid-column-start: 3;
 }
 .candidates img{
     width: 250px;
@@ -7,12 +11,14 @@
 .map img {
     width: 500px;
 }
-.container {
+.data {
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
     max-width: 1000px;
     margin: 0;
-}
-table {
-    text-align: center;
 }
 th {
     border: 2px solid black;
