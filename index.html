@@ -2,71 +2,96 @@
 <html>
     <head>
         <link rel="stylesheet" href="resources/css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     </head>
-    <header>
-        <h1>2024 Election</h1>
-    </header>
-    <body class = "grid">
-        <div class="candidates">
-            <h1>Kamala Harris</h1>
-            <p>Democratic nominee for the 2024 presidential election (pictured below)</p>
-            <img src="resources/harris.webp">
-            <h1>Donald Trump</h1>
-            <p>Republican nominee for the 2024 presidential election (pictured below)</p>
-            <img src="resources/trump.jpg">
-        </div>
-        <div class="data">
-          <table>
-            <thead>
-                <tr>
-                    <th colspan="3"><h1>Election Data</h1></th>
-                </tr>
-                <tr>
-                    <th>Candidate</th>
-                    <th>Party</th>
-                    <th>Polling %</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Kamala Harris</td>
-                    <div class="democrat">
-                        <td>Democrat</td>
-                    </div>
-                    <td>49%</td>
-                </tr>
-                <tr>
-                    <td>Donald Trump</td>
-                    <div class="republican">
-                        <td>Republican</td>
-                    </div>
-                    <td>51%</td>
-                </tr>
-                <tr>
-                    <td>Jill Stein</td>
-                    <div class="green">
-                        <td>Green</td>
-                    </div>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td>Chase Oliver</td>
-                    <div class="libertarian">
-                        <td>Libertarian</td>
-                    </div>
-                    <td>N/A</td>
-                </tr>
-                <tr>
-                    <td>Cornel West</td>
-                    <div class="independent">
-                        <td>Independent</td>
-                    </div>
-                    <td>N/A</td>
-                </tr>
-            </tbody>
-         </table>
-        <h1>Election Map</h1>
-        <img src="resources/counties.png">
-        </div>
+
+    <body>
+
+        <header>
+            <title>2024 Election Day</title>
+            <nav class="navigation">
+                <h3>A Project by Michael Zhao and Matias Tupinamba</h3><h3 align="right">Vote Today!</h3>
+            </nav>
+        </header>
+
+        <main>
+            <section class="display">
+                <h1 class = "title">Your 2024 Presidential Candidates Are...</h1>
+                <div class = "candidates">
+                    <h1>Kamala Harris</h1>
+                    <p>Democratic nominee for the 2024 presidential election</p>
+                    <img src="resources/harris.webp">
+                </div>   
+                <div class = "candidates">
+                    <h1>Donald Trump</h1>
+                    <p>Republican nominee for the 2024 presidential election</p>
+                    <img src="resources/trump.jpg">
+                </div>   
+                <div class = "candidates">
+                    <h1>Extras</h1>
+                    <p>Yeah they probably are running</p>
+                    <img src="resources/others.webp" alt="an empty profile picture">
+                </div>
+            </section>
+
+            <div class="map">
+                <img src="resources/counties.png">
+            </div>
+
+
+            <div class="data">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3"><h1>Election Data</h1></th>
+                    </tr>
+                    <tr>
+                        <th>Candidate</th>
+                        <th>Party</th>
+                        <th>Polling %</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kamala Harris</td>
+                        <div class="democrat">
+                            <td>Democrat</td>
+                        </div>
+                        <td>49%</td>
+                    </tr>
+                    <tr>
+                        <td>Donald Trump</td>
+                        <div class="republican">
+                            <td>Republican</td>
+                        </div>
+                        <td>51%</td>
+                    </tr>
+                    <tr>
+                        <td>Jill Stein</td>
+                        <div class="green">
+                            <td>Green</td>
+                        </div>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>Chase Oliver</td>
+                        <div class="libertarian">
+                            <td>Libertarian</td>
+                        </div>
+                        <td>N/A</td>
+                    </tr>
+                    <tr>
+                        <td>Cornel West</td>
+                        <div class="independent">
+                            <td>Independent</td>
+                        </div>
+                        <td>N/A</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+        </main>
     </body>
 </html>

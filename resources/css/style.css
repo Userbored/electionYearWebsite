@@ -1,0 +1,64 @@
+html {
+    background-image: url("C:/Users/mkzmk/VS-workspace/ElectionRepo/electionYearWebsite/resources/bgm.jpg");
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-color: rgb(9, 18, 39);
+    position: fixed;
+    width: 100%;
+
+    z-index: 1;
+}
+
+.navigation {
+    margin: 10px 20px;
+    padding: 0px 20px;
+  }
+
+.navigation h3{
+    font-family: "Oswald", sans-serif;
+    display: inline-block;
+    color: #F4F4F9;
+    font-size: 50px;
+    width: 50%;
+}
+
+.title {
+    font-size: 80px;
+}
+
+main {
+    position: relative;
+    top: 190px;
+    text-align: center;
+    background-color: #f4f4f9e8;
+    margin: 0 200px;
+}
+
+.display {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.candidates {
+    font-family: "Oswald", sans-serif;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 40px;
+}
+
+.candidates img {
+    width: 400px;
+    height: 500px;
+}
+
+.map img{
+    width: 1200px;
+}
